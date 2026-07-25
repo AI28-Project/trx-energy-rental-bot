@@ -1,6 +1,8 @@
-"""trxfee.io 能量 API 客户端。
+"""上游能量 API 客户端（默认适配 trxfee.io，可自行更换）。
 
-签名规则（与官方文档一致）：
+trxfee.io 仅为随手接入的示例实现，与本项目作者无关；换源时改本文件即可。
+
+默认签名规则（trxfee.io 文档）：
   1. 请求体按 key 字母序排序，序列化为无空格 JSON（separators=(",", ":")）。
   2. message = f"{timestamp}&{json_data}"，timestamp 为 10 位秒级时间戳。
   3. SIGNATURE = HMAC-SHA256(API_SECRET, message).hexdigest()。
