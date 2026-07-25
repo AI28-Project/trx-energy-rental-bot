@@ -1,0 +1,13 @@
+.env
+authorized.json
+authorized_*.json
+usage_*.json
+clones.json
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+progress.md
+progress-archive.md
