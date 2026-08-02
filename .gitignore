@@ -11,3 +11,9 @@ __pycache__/
 .DS_Store
 progress.md
 progress-archive.md
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.cursor/
+.idea/
+.vscode/

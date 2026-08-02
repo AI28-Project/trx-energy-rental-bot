@@ -1,5 +1,9 @@
 # TRX 能量租赁机器人
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![GitHub stars](https://img.shields.io/github/stars/shuaiqideyu/trx-energy-rental-bot?style=social)](https://github.com/shuaiqideyu/trx-energy-rental-bot/stargazers)
+
 > **适合自用版本** —— 作者 / 授权制访问控制，无公开下单入口、无广告、无免费群逻辑。  
 > 适合个人或小团队自用：给指定 TRON 地址快速租能量（按「笔」下单）。
 
