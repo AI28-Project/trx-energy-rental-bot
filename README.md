@@ -1,21 +1,16 @@
 # TRX 能量租赁机器人
 
+Telegram **TRX 能量租赁**机器人（适合自用）。
+
+发送「笔数 + 地址」→ 二次确认 → 调用上游能量 API 下单 → 回执成功 / 失败。仅作者与被授权用户可用，无公开下单入口、无广告。支持主 bot + N 个克隆 bot 同进程托管，各自独立 API 与管理员。
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![GitHub stars](https://img.shields.io/github/stars/shuaiqideyu/trx-energy-rental-bot?style=social)](https://github.com/shuaiqideyu/trx-energy-rental-bot/stargazers)
-
-> **适合自用版本** —— 作者 / 授权制访问控制，无公开下单入口、无广告、无免费群逻辑。  
-> 适合个人或小团队自用：给指定 TRON 地址快速租能量（按「笔」下单）。
-
-生产可用的 Telegram **TRX 能量租赁**机器人：发送「笔数 + 地址」→ 二次确认 → 调用上游能量 API 下单 → 回执成功 / 失败。支持主 bot + N 个克隆 bot 同进程托管，各自独立 API 与管理员。
 
 **作者**：[Telegram @yuuu](https://t.me/yuuu)
 
-仓库：https://github.com/shuaiqideyu/trx-energy-rental-bot
-
 > **关于 trxfee.io（重要）**  
-> 仓库默认适配 [trxfee.io](https://doc.trxfee.io) **仅为开发时随手接入的示例上游**，可自行更换为任何兼容（或你自行改适配层后兼容）的能量平台。  
-> **该平台与本仓库作者无关**，不构成推荐、合作或背书；选用、资费与可用性请自行评估。换源时主要改 [`energy_bot/trxfee.py`](energy_bot/trxfee.py) 与相关环境变量即可。
+> 默认适配 [trxfee.io](https://doc.trxfee.io) **仅为示例上游**，可自行更换。该平台与作者无关，不构成推荐或背书。换源主要改 [`energy_bot/trxfee.py`](energy_bot/trxfee.py) 与相关环境变量。
 
 ---
 
@@ -425,4 +420,4 @@ trxfee `/account` 对本账号可能不准；请在 `.env` 设置 `RECHARGE_ADDR
 
 [MIT](LICENSE)
 
-作者：[Telegram @yuuu](https://t.me/yuuu)
+**作者**：[Telegram @yuuu](https://t.me/yuuu)
